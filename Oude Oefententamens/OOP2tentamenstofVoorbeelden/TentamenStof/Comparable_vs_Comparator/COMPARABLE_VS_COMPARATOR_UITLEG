@@ -1,0 +1,54 @@
+Comparable vs Comparator:
+
+Comparable = interface that lets you implement the method equals(Object o) for natural ordening.
+			- For most standard Java classes
+
+-----------------------------------------------------
+Interface Comparable<T> {
+
+    // Return <0 , 0, or >0 (smaller, equal, greater)
+    int compareTo( T o );
+}
+-----------------------------------------------------
+
+			**return i1.compareTo(i2);**
+			
+		- i1 > i2 --> return 1 (or more)
+		- i1 < i2 --> return -1 (or less)
+		- i1 == i2 --> return 0
+		
+		
+		
+Comparator = interface that lets you compare a non-standard Java class object with another object of the same type
+			- Need to implement a class that can compare objects of type T
+			- Can be used when objects do not have a natural order
+			- Can implement multiple types of ordering
+
+---------------------------------------------------------
+interface Comparator<T> {
+    // Returns < 0, 0 or > 0 when smaller, equal, greater
+    public int compare(T e1, T e2);
+}
+
+---------------------------------------------------------
+// Example
+import java.util.Comparator;
+import java.io.Serializable;
+
+class MyComparator implements Comparator<String>, Serializable {
+    // Compare strings on their length
+    public int compare( String s1, String s2 ) {
+        return s1.length() - s2.length();
+    }
+}
+---------------------------------------------------------
+
+
+************
+Examples of using Comparable and Comparator:
+
+Arrays.sort( Object[] a );              // Natural ordering
+Arrays.sort( T[] a, Comparator<T> cmp); // Comparator
+
+Collections.sort(List<T> l);                    // Natural ordering
+Collections.sort(List<T> l, Comparator<T> cmp); // Comparator

@@ -1,0 +1,10 @@
+import java.util.HashMap;
+
+public class Launcher {
+	public static void main(String[] args) {
+		Vakken v = new Vakken();
+		System.out.println(v.toString());
+		
+	}
+
+}

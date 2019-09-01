@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="jdk.internal.vm.annotation.ForceInline"/>
+    <fullyQualifiedTypeName name="Google"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="dit.niet.veranderen.Geheel"/>
+    <fullyQualifiedTypeName name="dit.niet.veranderen.Breuk"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="objectfilers.Objectschrijfenlees"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="nl.hva.ict.oop2.deel1.Biertype"/>
+    <fullyQualifiedTypeName name="nl.hva.ict.oop2.deel2.Trappist"/>
+    <fullyQualifiedTypeName name="nl.hva.ict.oop2.deel3.LaadSessieKWH"/>
+    <fullyQualifiedTypeName name="nl.hva.miw.oop2.cohort12.tentamen.Matrix"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="stap2.StringSplitter"/>
+    <fullyQualifiedTypeName name="stap2.Recursion"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.io.EOFException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="nl.hva.miw.oop2.c12.hertentamen.Taxateur.NegatieveWaardeException"/>
+    <fullyQualifiedTypeName name="nl.hva.miw.oop2.c12.hertentamen.boodschappen.Artikel"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="nl.hva.miw.oop2.c12.hertentamen.boodschappen.prijsComparator"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+</qualifiedTypeNameHistroy>

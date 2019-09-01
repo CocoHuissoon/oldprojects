@@ -1,0 +1,40 @@
+import java.util.Arrays;
+import java.util.PriorityQueue;
+
+public class launcher {
+	
+	public static void main (String[] args) {
+		
+		 
+		MaxHeapArray f= new MaxHeapArray();
+		System.out.println(f.toString());
+		
+		f.insert(4);
+		f.insert(3);
+		f.insert(24);
+		f.insert(14);
+		f.insert(12);
+		f.insert(33);
+		f.insert(1);
+		f.insert(2);
+		f.insert(11);
+		f.insert(32);
+		System.out.println(f.toString());
+		f.remove();
+		f.remove();
+		f.remove();
+		System.out.println(f.toString());
+		
+		
+		
+	}
+	public static void arrayToHeap(int x) {
+		for (int i=0;i<x;i++) {
+			
+			
+			
+		}
+		
+	}
+
+}

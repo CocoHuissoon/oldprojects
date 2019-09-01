@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Part1 {
+	public static void main (String[]args) {
+	System.out.print("Hello world! \n(And all the people of the world)\n");
+	System.out.println("      *\n     ***\n    *****\n   *******\n  *********\n      *");
+	
+	
+	String chick= "Chickens:\n";
+	int chickbuck= 9000;
+	String pig = "\nBacon (kg):\n";
+	double pigbuck= 0.1;
+	String trac = "\nA tractor:\nZetor\n";
+	String nut = "\nInt a nutshell:\n";
+	System.out.println(chick + chickbuck + pig + pigbuck + trac + nut  + chickbuck +"\n"+ pigbuck + "\nZetor");
+	
+	int secondInYear= 365 * 24 * 60 *60;
+	System.out.println("There are "+ secondInYear+ " in a year");
+	int x=111 ;
+	int y=277 ;
+	int sum= x*y;
+	System.out.println(y +" * " + x +" = " +sum);
+	System.out.print("What is your name? ");
+	String name = reader.nextLine(); // Reads a line of input from the user and assigns it
+	                                 //     to the variable called name
+
+	System.out.println("Hi, " + name);
+	
+	
+
+	}
+	
+
+}

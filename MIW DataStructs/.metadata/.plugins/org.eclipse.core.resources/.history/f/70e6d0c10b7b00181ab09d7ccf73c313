@@ -1,0 +1,21 @@
+import java.util.Arrays;
+
+
+
+public class Launcher {
+	public static void main(String []args) {
+		Thing[]t=Thing.generateThings(5);
+		System.out.println(Arrays.toString(t));
+		Sort.selectionSort(t);
+		System.out.println(Arrays.toString(t));
+		Thing[]f=Thing.generateThings(5);
+		System.out.println(Arrays.toString(f));
+		Sort.selectionSort(f);
+		System.out.println(Arrays.toString(f));
+		Thing[]r=Thing.generateThings(5);
+		System.out.println(Arrays.toString(r));
+		Sort.bubbleSort2(r);
+		System.out.println(Arrays.toString(r));
+	}
+
+}

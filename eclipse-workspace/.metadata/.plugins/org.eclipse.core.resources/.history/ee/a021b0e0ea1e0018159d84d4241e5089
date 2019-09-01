@@ -1,0 +1,15 @@
+class Niku{
+	public void meat (String text) {
+		System.out.println(text);
+		
+	}
+}
+public class Setters17 {
+	public static void main(String[] args) {
+		System.out.println("Hellow Wrold");
+		Niku nikuu= new Niku();
+		nikuu.meat("hiiiiii");
+		
+	}
+
+}

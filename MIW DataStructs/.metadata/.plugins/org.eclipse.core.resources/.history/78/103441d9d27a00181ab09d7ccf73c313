@@ -1,0 +1,12 @@
+
+public class Cijfers {
+	private int getal;
+
+	public Cijfers(int getal) {
+		super();
+		this.getal = getal;
+	}
+	
+	
+
+}

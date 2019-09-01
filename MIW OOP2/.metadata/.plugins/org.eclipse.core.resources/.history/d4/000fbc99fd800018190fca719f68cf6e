@@ -1,0 +1,20 @@
+package nl.hva.miw.oop2.c12.hertentamen.Taxateur;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+		run();
+
+	}
+	public static void run() {
+		Taxateur t= new Taxateur();
+		try {
+			t.voegToe(new Sieraad("ketting",4444));
+			t.voegToe(new Sieraad("kroon",4));
+			t.voegToe(new Sieraad("ketting",666));		} 
+		catch (NegatieveWaardeException e) {
+			System.out.println("Waarde te laag  "+ e);
+		}
+	}
+
+}

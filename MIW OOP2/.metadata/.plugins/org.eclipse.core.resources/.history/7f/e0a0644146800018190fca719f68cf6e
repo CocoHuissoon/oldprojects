@@ -1,0 +1,32 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class RecursionTest {
+
+	@Test
+	public void testRecursion() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMain() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testRecursionTest() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testInvert() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsPalinDroom() {
+		fail("Not yet implemented");
+	}
+
+}

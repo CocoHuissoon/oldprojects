@@ -1,0 +1,31 @@
+
+import javax.persistence.*;
+
+
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "koopje")
+public class Offer {
+	
+	@Id
+	private long id;
+	@Column(name="titel")
+	private String title;
+	@Column(name="beschrijving")
+	private String description;
+	@Column(name="prijs")
+	private double price;
+
+	public Offer() {}
+	
+	
+	public Offer(long id, String title, String description, double price) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.description = description;
+		this.price = price;
+	}
+
+}

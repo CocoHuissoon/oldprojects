@@ -1,0 +1,52 @@
+package nl.hva.miw.datastructures.studentmap;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Grades {
+	private HashMap<Integer, ArrayList<Integer>> grades;
+	private int id;
+	private ArrayList<Integer> grade;
+
+	public Grades(String url) {
+		super();
+		this.grades = vulAan(url);
+	}
+
+	public static void main(String[] args) {
+		Grades g = new Grades("grades.txt");
+		System.out.println(g.toString());
+	}
+
+	public HashMap<Integer, ArrayList<Integer>> vulAan(String url) {
+		HashMap<Integer, ArrayList<Integer>> grades = new HashMap<>();
+		try (Scanner sc = new Scanner(new File(url))) {
+
+			while (sc.hasNext()) {
+				id = sc.nextInt();
+				if (grades.containsKey(id)) {
+					grades.get(id).add(sc.nextInt());
+				} else {
+					ArrayList<Integer> gradeList = new ArrayList<>();
+					gradeList.add(sc.nextInt());
+					grades.put(id, gradeList);
+				}
+
+			}
+
+		} catch (FileNotFoundException e) {
+			System.out.println("Kan file niet vinden" + e);
+		}
+		return grades;
+
+	}
+
+	@Override
+	public String toString() {
+		return "Grades [grades=" + grades + "]";
+	}
+
+}

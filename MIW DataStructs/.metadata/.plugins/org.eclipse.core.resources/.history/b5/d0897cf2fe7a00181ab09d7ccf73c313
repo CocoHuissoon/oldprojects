@@ -1,0 +1,14 @@
+import java.util.Arrays;
+
+
+
+public class Launcher {
+	public static void main(String []args) {
+		Thing[]t=Thing.generateThings(5);
+		System.out.println(Arrays.toString(t));
+		Sorting.selectionSort(t);
+		System.out.println(Arrays.toString(t));
+
+	}
+
+}

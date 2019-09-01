@@ -1,0 +1,15 @@
+Exceptions:
+
+1. Try (block) -->     will execute a sensitive code which can throw exceptions
+
+2. Catch (block) -->   will be used whenever an exception (of the type caught) is thrown in the try block
+
+3. Finally (block) --> is called in every case after the try/catch blocks. Even if the exception isn't caught 
+			   		   or if your previous blocks break the execution flow.
+			   
+4. Throw (keyword) --> will allow you to throw an exception (which will break the execution flow and can be 
+					   caught in a catch block).
+					   
+5. Throws (keyword) -->  *in the method prototype* is used to specify that your method might throw exceptions
+						 of the specified type. It's useful when you have checked exception (exception that you 
+						 have to handle) that you don't want to catch in your current method.

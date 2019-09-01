@@ -1,0 +1,14 @@
+package stap4;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class Launcher {
+	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
+		Dierentuin d=new Dierentuin();
+		ArrayList<Dier>l= d.maakDierenTuin("src/artis.dat");
+		System.out.println(l.size());
+		System.out.println(l.get(1).toString());
+	}
+}

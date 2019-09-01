@@ -1,0 +1,41 @@
+
+package nl.hva.miw.datastructures.studentmap;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import nl.hva.miw.datastructures.studentmap.Student;
+import nl.hva.miw.datastructures.studentmap.StudentMap;
+
+public class StudentMapTest {
+
+	@Test
+	public void test() {
+		
+		StudentMap map = new StudentMap();
+		
+		map.initializeMap();
+		
+		// Find student Jan de Boer in the map and print his grade 
+		Student jan = new Student( "Jan De Boer", 1000);
+		Student jan2 = new Student( "Jan de Boer", 1000);
+		
+		System.out.println("Hashcode Jan De Boer " + jan.hashCode());
+		System.out.println("Hashcode Jan de Boer " + jan2.hashCode());
+		System.out.println("Equals " + jan2.equals(jan));
+		
+		// Check if this student is in the map
+		for ( Student s : map.getMap().keySet() ) {
+			if (s.equals( jan )) {
+				System.out.println("Jan is in the map ");
+			}
+		}
+		
+		// Get the grade of Jan, which should be 9.1
+		assertEquals(Double.valueOf(9.1), map.getMap().get( jan ));
+		
+		// Problem...the above line reports that Jan is not in the map?
+		// Find out what the problem is and correct it.
+	}
+}

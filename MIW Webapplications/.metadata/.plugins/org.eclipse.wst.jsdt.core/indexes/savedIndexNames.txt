@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\Gebruiker\Documents\MIW Webapplications\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1855999873.index
+2963661751.index
+2163187932.index
+3051270115.index
+4127690582.index
+2768089166.index

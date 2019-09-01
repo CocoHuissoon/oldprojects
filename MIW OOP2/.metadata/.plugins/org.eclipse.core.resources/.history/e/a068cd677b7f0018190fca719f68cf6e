@@ -1,0 +1,10 @@
+package nl.hva.miw.oop2.cohort12.tentamen;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

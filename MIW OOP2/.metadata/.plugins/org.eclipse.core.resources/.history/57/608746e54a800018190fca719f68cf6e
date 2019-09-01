@@ -1,0 +1,33 @@
+package stap4;
+
+import java.io.EOFException;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Dierentuin {
+
+	public ArrayList<Dier> maakDierenTuin(String file) throws FileNotFoundException, IOException {
+		ArrayList<Dier> tuin = new ArrayList<Dier>();
+		System.out.println("ja");
+		try (ObjectInputStream os = new ObjectInputStream(new FileInputStream(file))) {
+			System.out.println("ja");
+			while(os.available() > 0) {
+				System.out.println("ja");
+				String s=os.readUTF();
+				double d=os.readDouble();
+				int i=os.readInt();
+				Dier temp=new Dier(s,d,i);
+				tuin.add(temp);
+				System.out.println("nee");
+			
+			}
+		} catch (EOFException e) {
+			System.out.println("Kan klasse niet vinden"+e);
+		}
+		return tuin;
+	}
+}

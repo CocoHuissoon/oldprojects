@@ -1,0 +1,14 @@
+class Robot {
+	public void speak() {
+		System.out.println("Hello World");
+	}
+}
+
+public class MethodParameters {
+	public static void main(String[] args) {
+		Robot robot1 =new Robot();
+		robot1.speak("Hi I am Sam");
+
+	}
+
+}

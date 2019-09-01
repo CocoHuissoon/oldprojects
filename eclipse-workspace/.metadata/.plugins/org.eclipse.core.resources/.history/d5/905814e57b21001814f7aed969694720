@@ -1,0 +1,14 @@
+class Frog {
+	/*public String toString() {
+		return "Helllllllooooooo~~~~~~";
+	}*/
+}
+	public class ToString21 {
+	public static void main (String[]args){
+		Frog frog1 = new Frog();
+		System.out.println(frog1);
+		
+		
+	}
+
+}

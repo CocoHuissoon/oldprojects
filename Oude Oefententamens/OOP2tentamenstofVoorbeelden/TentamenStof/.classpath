@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="Exceptions"/>
+	<classpathentry kind="src" path="Generics"/>
+	<classpathentry kind="src" path="Input_Output"/>
+	<classpathentry kind="src" path="Recursie"/>
+	<classpathentry kind="src" path="Unit_Tests"/>
+	<classpathentry kind="src" path="Comparable_vs_Comparator"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

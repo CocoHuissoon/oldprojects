@@ -1,0 +1,11 @@
+
+public class Stack {
+	
+	public Stack stack;
+	
+	public Stack() {
+		
+	}
+	Stack s = new Stack();
+
+}

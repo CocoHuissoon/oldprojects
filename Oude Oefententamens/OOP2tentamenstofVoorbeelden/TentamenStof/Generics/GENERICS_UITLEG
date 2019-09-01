@@ -1,0 +1,13 @@
+Generics:
+
+1. A generic class is defined with the following format:
+		* class name<T1, T2, ..., Tn> { /* ... */ }
+			- T1, T2 etc. are the type variables (non-primitive)
+		
+		*Naming convention:
+		E - Element (used extensively by the Java Collections Framework)
+		K - Key
+		N - Number
+		T - Type
+		V - Value
+		S,U,V etc. - 2nd, 3rd, 4th types

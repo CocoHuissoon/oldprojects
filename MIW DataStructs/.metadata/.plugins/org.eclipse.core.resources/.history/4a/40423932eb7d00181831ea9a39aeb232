@@ -1,0 +1,45 @@
+
+public class Route {
+	private char [] route;
+	private char street='s';
+	private char avenue='a';
+	
+	public Route() {
+		this.route=makeRandomRoute();
+		
+	}
+	public char[] makeRandomRoute() {
+		char[] route=new char[6];
+		int streetCount=0;
+		int avenueCount=0;
+		for(int i=0;i<6;i++) {
+			
+			int temp = (Math.random() <= 0.5) ? 1 : 2;
+			if(streetCount==3) {
+				temp=2;
+			}else if(avenueCount==6) {
+				temp=1;
+			}
+			if(temp==1) {
+				route[i]=street;
+				streetCount++;
+			}else if(temp==2) {
+				route[i]=avenue;
+				avenueCount++;
+			}
+		}
+		return route;
+	}
+	public static void main(String[] args) {
+		Route r = new Route();
+		System.out.println(r.toString());
+	}
+	@Override
+	public String toString() {
+		return "Route [street=" + street + "]";
+	}
+	public char[] getRoute() {
+		return route;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;artis.dat&apos; to &apos;OEFENTENTAMENS ANDERSON/OEFENTENTAMENS ANDERSON/1/1/Tentamen 2016-02-01 Startproject/src/stap4&apos;&#x0D;&#x0A;- Original project: &apos;LaatsteOef&apos;&#x0D;&#x0A;- Destination element: &apos;OEFENTENTAMENS ANDERSON/OEFENTENTAMENS ANDERSON/1/1/Tentamen 2016-02-01 Startproject/src/stap4&apos;&#x0D;&#x0A;- Original element: &apos;artis.dat&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=OEFENTENTAMENS ANDERSON/OEFENTENTAMENS ANDERSON\/1\/1\/Tentamen 2016-02-01 Startproject\/src&lt;stap4" element1="src/artis.dat" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1530792268475" units="0" version="1.0"/>
+</session>

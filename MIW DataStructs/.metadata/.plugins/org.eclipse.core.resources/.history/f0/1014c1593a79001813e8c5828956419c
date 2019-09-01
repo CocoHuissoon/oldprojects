@@ -1,0 +1,19 @@
+package main;
+
+import java.util.Arrays;
+
+import model.Student;
+import util.Shuffler;
+
+public class SortingStudentsLauncher {
+
+	public static void main(String[] args) {
+		Student s= new Student();
+		Student [] q=s.generateStudents(1000);
+		System.out.println(Arrays.toString(q));
+		
+//		to do: write code to test the Student class and the sort methods in the Sort class
+
+	}
+
+}

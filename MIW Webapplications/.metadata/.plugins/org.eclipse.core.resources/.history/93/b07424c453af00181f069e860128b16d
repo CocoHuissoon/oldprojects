@@ -1,0 +1,46 @@
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="GoodBois")
+public class Offer {
+
+	String naam;
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	int id;
+	@ManyToMany(mappedBy="lijst")
+	List<Baas> l;
+
+	public Offer() {
+		super();
+	}
+
+	public Offer(String naam) {
+		super();
+		this.naam = naam;
+		
+
+	}
+
+	public void setL(List<Baas> l) {
+		this.l = l;
+	}
+
+	@Override
+	public String toString() {
+		return "Hond [naam=" + naam + ", id=" + id + ", l=" + l.toString() + "]";
+	}
+
+	
+
+}

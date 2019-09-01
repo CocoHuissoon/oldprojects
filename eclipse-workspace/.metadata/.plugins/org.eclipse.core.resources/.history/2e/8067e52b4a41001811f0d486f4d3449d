@@ -1,0 +1,12 @@
+
+public class MIW {
+
+	public static void main(String[] args) {
+		
+		public String metro() {
+		
+			System.out.println("Hello World");
+	}
+
+}
+}

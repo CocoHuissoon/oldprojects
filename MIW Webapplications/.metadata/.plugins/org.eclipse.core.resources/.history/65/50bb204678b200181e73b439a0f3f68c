@@ -1,0 +1,28 @@
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "notitie")
+public class Note {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private long id;
+	@Column(name="titel")
+	private String title;
+	@Column(name="beschrijving")
+	private String content;
+	
+
+	public Note() {}
+	
+	
+	public Note(long id, String title, String content) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.content = content;
+		
+	}
+
+}

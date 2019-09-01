@@ -1,0 +1,16 @@
+package main;
+
+import model.Student;
+import util.Shuffler;
+
+public class SortingStudentsLauncher {
+
+	public static void main(String[] args) {
+		Student s= new Student();
+		s.generateStudents(1000);
+		
+//		to do: write code to test the Student class and the sort methods in the Sort class
+
+	}
+
+}

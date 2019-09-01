@@ -1,0 +1,51 @@
+package mainstudentgroups;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+
+import model.Group;
+import model.Student;
+import model.StudentList;
+
+public class StudentGroupsLauncher {
+	
+	private final static int NUMBER_OF_STUDENTS = 101;
+	
+	// de main methode maakt een Launcher object aan, die de launch methode kan uitvoeren.
+	public static void main(String[] args) {
+		StudentGroupsLauncher me = new StudentGroupsLauncher();
+		me.launch();
+	}
+	
+	// de launch methode doet al het werk.
+	public void launch() {
+		// De studentlijst wordt gegenereerd en uitgeprint.
+		StudentList theTotalList = new StudentList(NUMBER_OF_STUDENTS);
+		System.out.println(theTotalList);
+		
+		// De lijst met groep wordt klaargezet op basis van het aantal studenten.
+		Group[] groupList = theTotalList.getStudentGroups();
+		//Ik maak hier een hashmap aan zodat studentcodes (values) aan hun groepen (keys) gekoppeld kunnen worden
+		//Werkt helaas nog niet, had waarschijnlijk in group meer moeten veranderen. 
+		
+		HashMap<Integer,ArrayList<Long>> map= new HashMap<>();
+		for(Group g:groupList) {
+			if(map.containsKey(g.getGroupId())) {
+//			map.put(g.getGroupId(),((Long) g).next());
+		}
+		}
+		
+		// Voeg hier code toe die de lijst met studenten langs loopt en een student toevoegt aan de eigen groep.
+		
+		
+		
+		// Alle groepslijsten worden uitgeprint met daarin de studenten op juiste volgorde.
+		for (int i = 0; i < groupList.length; i++) {
+			System.out.printf("Studenten van groep %d:\n", groupList[i].getGroupId());
+			System.out.println(groupList[i]);
+		}
+		
+	}
+
+}

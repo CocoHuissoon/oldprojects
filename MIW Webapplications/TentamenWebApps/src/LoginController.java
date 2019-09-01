@@ -1,0 +1,57 @@
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+
+/**
+ * Servlet implementation class FormulierServlet
+ */
+@WebServlet("/Login")
+public class LoginController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#HttpServlet()
+	 */
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		response.getWriter().append(
+				"<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\r\n"
+						+ "<html>\r\n" + "<head>\r\n"
+						+ "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\">\r\n"
+						+ "<title>Login</title>\r\n" + "</head>\r\n" + "<body>\r\n" + "	<h1>Login</h1>\r\n" + "\r\n"
+						+ "	<form action=\"FormulierServlet\" method=\"POST\">\r\n"
+						+ "		Email: <input type=\"text\" name=\"email\"> \r\n"
+						+ "		Password: <input type=\"password\" name=\"wachtwoord\" /> \r\n" + "		\r\n"
+						+ "		<input type=\"submit\" title=\"Login\" name=\"Plaats Koopje\" value=\"Login\"/> \r\n"
+						+ "	</form>\r\n" + "\r\n" + "</body>\r\n" + "</html>");
+
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		response.setContentType("homepage/jsp");
+		PrintWriter out = response.getWriter();
+
+		String n = request.getParameter("email");
+		String p = request.getParameter("password");
+
+	}
+}

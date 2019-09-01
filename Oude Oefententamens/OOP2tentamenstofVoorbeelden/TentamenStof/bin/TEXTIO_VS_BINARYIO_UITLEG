@@ -1,0 +1,52 @@
+TextI/O vs BinaryI/O:
+
+TextI/O:
+  	****CAN ONLY READ STRING AND PRIMITIVE DATATYPES****
+Read simple text files (who actually look like a text file in a texteditor)
+
+- Read files via: 1. FileReader = most basic char by char FileReader
+							**FileReader reader = new FileReader("fileName.txt");
+							**int charInt = reader.read();
+							
+				  2. BufferedReader = reads line by line and has a big buffer
+				  			**FileReader reader = new FileReader("fileName.txt");
+							**BufferedReader breader = new BufferedReader(reader);
+							**String line = breader.readLine();
+							
+				  3. Scanner = can read directly into objects (via .next())!!, but is slow
+				  			**Scanner scanner = new Scanner(new FileReader("fileName.txt"));
+				  			**String line = scanner.nextLine(); //whole line
+				  			**File stuff = new File("fileName.txt");
+				  			**Scanner scanner = new Scanner(stuff, StandardCharsets.UTF_8);
+				  			
+- Write files via: 1. FileWriter = writes the most simple text file
+							**FileWriter writer = new FileWriter("fileName.txt");
+							**writer.write("Some text.");
+				   2. PrintWriter
+				   			**PrintWriter output = new PrintWriter("filename.txt");
+				   			**
+							
+							
+Binary I/O:
+	****IS FOR READING BYTES AND IMPLEMENTS AUTOCLOSABLE****
+	****CAN BE USED AS AN ARGUMENT TO CONSTRUCT A SCANNER OR A PRINTWRITER****
+Read binary files (who look like a bunch of mambo jumbo in a texteditor)
+
+- Read/Write files via an InputStream/OutputStream (abstract classes with subclasses):
+				    1. FileInput-/OutputStream = reads/writes through a file. Output normally overwrites 
+				    						     the file unless you add true --> fos(file.txt, true)
+				    
+				    2. DataInput-/OutputStream = reads bytes and converts them into appropriate primitive 
+				    							 data-type values and strings and visa versa for writing
+				    		**DataInputStream dis = new DataInputStream(new FileInputStream("in.dat"));
+				    3. BufferedInput-/OutputStream = more efficient (and thus faster) version 
+				    							 --> The whole file is loaded into the buffer
+				    		**DataInputStream dis = new DataInputStream(new BufferedInputStream(new FileInputStream("in.dat")));
+				    4. ObjectInput-/OutputStream = can be used to read/write serializable objects!!
+				    							 --> Kan DataInput-/OutputStream geheel vervangen!
+				    		**ObjectInputStream dis = new ObjectInputStream(new BufferedInputStream(new FileInputStream("in.dat")));
+
+
+
+
+

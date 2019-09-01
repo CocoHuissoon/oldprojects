@@ -1,0 +1,14 @@
+
+public class MIW {
+
+	public static void main(String[] args) {
+		int age = 33;
+		age-=20;
+		if (age < 22) {
+			System.out.println("Hello World");
+		} else {
+			System.out.println("Nyee"+ age);
+		}
+
+	}
+}

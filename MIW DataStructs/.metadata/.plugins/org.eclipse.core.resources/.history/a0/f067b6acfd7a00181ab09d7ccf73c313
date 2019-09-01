@@ -1,0 +1,10 @@
+import java.util.Arrays;
+
+public class Launcher {
+	public static void main(String []args) {
+		Thing[]t=Thing.generateThings(5);
+		Arrays.toString(t);
+		
+	}
+
+}

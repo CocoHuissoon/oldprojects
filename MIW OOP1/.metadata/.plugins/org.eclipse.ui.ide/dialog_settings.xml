@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Gebruiker\gitprojects\training-assignments-advanced\jme3-effects"/>
+		<item value="C:\Users\Gebruiker\gitprojects\Robo\Robot-C12-F"/>
+		<item value="C:\Users\Gebruiker\gitprojects\Robo"/>
+		<item value="C:\Users\Gebruiker\Downloads\TentamenDB2_28052018"/>
+		<item value="C:\Users\Gebruiker\Downloads\OefenTentamenDB2Eclipse"/>
+		<item value="C:\Users\Gebruiker\Downloads\DatabaseConnection"/>
+		<item value="C:\Users\Gebruiker\Downloads\HappyNewYear (1)"/>
+		<item value="C:\Users\Gebruiker\Downloads\proeftoets2"/>
+		<item value="C:\Users\Gebruiker\Downloads\OOP1-CalorieenTeller"/>
+		<item value="C:\Users\Gebruiker\Downloads\OOP1Dag3Les1-2"/>
+		<item value="C:\Users\Gebruiker\Downloads\HappyNewYear"/>
+		<item value="C:\Users\Gebruiker\Downloads\Opdracht-bedrijf-startProject-eclipse"/>
+		<item value="C:\Users\Gebruiker\Downloads\Opdracht-leseenheid-startProject\LesEenheidApp"/>
+		<item value="C:\Users\Gebruiker\Documents\MIW OOP1\Opdracht-student-startproject\StudentApp"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="662" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="452" key="DIALOG_HEIGHT"/>
+		<item value="629" key="DIALOG_X_ORIGIN"/>
+		<item value="214" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+</section>

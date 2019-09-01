@@ -1,0 +1,5 @@
+package nl.hva.miw.datastructures.studentmap;
+
+public class Grades {
+
+}

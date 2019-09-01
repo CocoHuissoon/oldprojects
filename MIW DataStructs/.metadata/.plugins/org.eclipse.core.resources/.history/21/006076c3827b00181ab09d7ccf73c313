@@ -1,0 +1,41 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Vakken  {
+	private HashMap<String,Integer> vakken;
+	private String vakcode;
+	private int ects;
+	
+	public Vakken(String url) {
+		super();
+		this.vakken=vulVakken(url);
+		
+		
+	}
+	public HashMap<String, Integer> vulVakken(String url) {
+		try (Scanner sc=new Scanner(new File(url))){
+			
+				while(sc.hasNext()) {
+					vakken.put(sc.next(), sc.nextInt());
+					sc.nextLine();
+				}
+			
+		} catch (FileNotFoundException e) {
+			System.out.println("Kan file niet vinden" + e);
+		}
+		return vakken;
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Vakken [vakken=" + vakken + "]";
+	}
+	
+	
+	
+	
+
+}

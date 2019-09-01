@@ -1,0 +1,61 @@
+package nl.hva.miw.oop2.c12.hertentamen.boodschappen;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+
+
+public class Boodschappenlijst {
+	
+	/** 
+	 * De lijst van artikelen
+	 */
+	private List<Artikel> lijst = new ArrayList<>();
+	
+	/**
+	 * Voeg een artikel aan de boodschappenlijst toe.
+	 * 
+	 * @param a
+	 */
+	public void voegArtikelToe( Artikel a ) {
+		this.lijst.add(a);
+	}
+
+	/**
+	 * Retourneert de artikelen in deze boodschappenlijst.
+	 * j
+	 * @return
+	 */
+	public List<Artikel> getLijstArtikelen() {
+		return lijst;
+	}
+
+	/**
+	 * Print artikelen in deze boodschappenlijst. 
+	 */
+	public void printBoodschappenLijst() {
+		System.out.println("Boodschappenlijst: [ ");
+		for ( Artikel a : lijst ) {
+			System.out.println("  " + a);
+		}
+	}
+	
+	
+	/**
+	 * Sorteert de artikelen in deze boodschappenlijst in de "Natural Order" van de artikelen.
+	 */
+	public void sorteer() {
+			java.util.Collections.sort(lijst);
+		
+	}
+
+	/**
+	 * Sorteert de artikelen in deze boodschappenlijst op basis van de gegeven Comparator.
+	 * LET OP: verander de method declaratie ook indien nodig!
+	 */
+	
+	public void sorteer(List<Artikel>l) {
+		;
+	}
+}

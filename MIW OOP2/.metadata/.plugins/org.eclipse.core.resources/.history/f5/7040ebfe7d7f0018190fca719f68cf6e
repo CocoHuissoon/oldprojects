@@ -1,0 +1,15 @@
+package nl.hva.miw.oop2.cohort12.tentamen;
+
+public class Launcher {
+
+	
+		public static void main(String[] args) throws OngeldigeMatrixPositieException {
+			Matrix q = new Matrix(4);
+			
+			q.addElement(5, 5, 4);
+			System.out.println(q.toString());
+			
+		}
+	}
+
+

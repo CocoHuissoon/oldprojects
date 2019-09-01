@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="OEFENTENTAMENS ANDERSON/1/1/Tentamen 2016-02-01 Startproject/src"/>
+	<classpathentry kind="src" path="OEFENTENTAMENS ANDERSON/1/1/Tentamen 2016-02-01 Startproject/stap3tests"/>
+	<classpathentry kind="src" path="OEFENTENTAMENS ANDERSON/2/2/OOP2 Proeftoets/src"/>
+	<classpathentry kind="src" path="OEFENTENTAMENS ANDERSON/2/2/Uitwerking-proeftoets-OOP2/src"/>
+	<classpathentry kind="src" path="OEFENTENTAMENS ANDERSON/2/2/Uitwerking-proeftoets-OOP2/test"/>
+	<classpathentry kind="output" path="OEFENTENTAMENS ANDERSON/1/1/Tentamen 2016-02-01 Startproject/bin"/>
+</classpath>

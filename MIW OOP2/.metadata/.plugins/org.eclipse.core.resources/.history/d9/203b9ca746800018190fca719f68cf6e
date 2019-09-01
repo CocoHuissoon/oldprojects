@@ -1,0 +1,48 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import stap2.Recursion;
+
+public class RecursionTest {
+
+	@Test
+	public void testRecursion() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMain() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testRecursionTest() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testInvert() {
+		Recursion s = new Recursion();
+		String expected="cat";
+		String actual=s.invert("tac");
+		assertEquals(expected,actual);
+		
+		
+	}
+	@Test
+	public void testInvert1() {
+		Recursion s = new Recursion();
+		String expected="";
+		String actual=s.invert("");
+		assertEquals(expected,actual);
+		
+		
+	}
+
+	@Test
+	public void testIsPalinDroom() {
+		fail("Not yet implemented");
+	}
+
+}

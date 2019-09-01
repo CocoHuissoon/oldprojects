@@ -1,0 +1,14 @@
+127.0.0.1 - - [06/Sep/2018:16:05:36 +0200] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:16:05:37 +0200] "GET /HertentamenWebApps/Plaats.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:16:07:48 +0200] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:16:07:49 +0200] "GET /favicon.ico HTTP/1.1" 404 1085
+127.0.0.1 - - [06/Sep/2018:16:21:28 +0200] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:16:21:29 +0200] "GET /TentamenWebApps/Plaats.html HTTP/1.1" 200 578
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:16:24:21 +0200] "POST /TentamenWebApps/FormulierServlet HTTP/1.1" 404 1110
+127.0.0.1 - - [06/Sep/2018:18:00:13 +0200] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:18:00:48 +0200] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:18:00:59 +0200] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:18:01:08 +0200] "POST /TentamenWebApps/FormulierServlet HTTP/1.1" 404 1110
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:18:05:48 +0200] "GET /HerTentamen/NewFile.html HTTP/1.1" 200 263
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:18:06:47 +0200] "GET /HerTentamen/NewFile.html HTTP/1.1" 200 258
+0:0:0:0:0:0:0:1 - - [06/Sep/2018:18:17:46 +0200] "POST /TentamenWebApps/FormulierServlet HTTP/1.1" 404 1110

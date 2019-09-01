@@ -1,0 +1,61 @@
+package Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import nl.hva.miw.oop2.cohort12.tentamen.Matrix;
+import nl.hva.miw.oop2.cohort12.tentamen.OngeldigeMatrixPositieException;
+
+public class MatrixTest {
+
+	@Test
+	public void testMatrix() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetElement() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAddElement() throws OngeldigeMatrixPositieException {
+		Matrix<Integer> e = new Matrix<>(2);
+		e.addElement(3, 3, 3);
+		
+		
+	}
+
+	@Test
+	public void testToString() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSaveToFile() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testLoadFromFile() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCompareTo() {
+		Matrix e = new Matrix<>(3);
+		Matrix r = new Matrix<>(1);
+		int expected= 2;
+		int actual=e.compareTo(r);
+		assertEquals(expected,actual);
+	}
+
+	@Test
+	public void testCompareTo1() {
+
+	}
+
+	
+
+}

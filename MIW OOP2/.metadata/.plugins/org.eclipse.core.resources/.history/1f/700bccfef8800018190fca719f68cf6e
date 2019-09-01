@@ -1,0 +1,40 @@
+package nl.hva.miw.oop2.c12.hertentamen.boodschappen;
+
+public class Artikel implements Comparable<Artikel> {
+	
+	private int artikelNr;
+	private String naam;
+	private double prijs;
+
+	public Artikel(int artikelNr, String naam, double prijs) {
+		super();
+		this.artikelNr = artikelNr;
+		this.naam = naam;
+		this.prijs = prijs;
+	}
+
+	public int getArtikelNr() {
+		return artikelNr;
+	}
+
+	public String getNaam() {
+		return naam;
+	}
+
+	public double getPrijs() {
+		return prijs;
+	}
+
+	@Override
+	public String toString() {
+		return "Artikel [artikelNr=" + artikelNr + ", naam=" + naam + ", prijs=" + prijs + "]";
+	}
+
+	
+
+	@Override
+	public int compareTo(Artikel o) {
+		
+		return this.getArtikelNr()-o.getArtikelNr();
+	}
+}

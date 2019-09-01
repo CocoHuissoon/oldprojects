@@ -1,0 +1,25 @@
+INDEX VERSION 1.130+C:\Users\Gebruiker\Documents\MIW Programeren\.metadata\.plugins\org.eclipse.jdt.core
+1763451104.index
+3855026624.index
+3601885327.index
+849169226.index
+2560221157.index
+602015206.index
+1749246500.index
+1488402284.index
+440528280.index
+920688387.index
+1818320769.index
+415549667.index
+3688774701.index
+2331209095.index
+1377011421.index
+1124135096.index
+3574862349.index
+1512123161.index
+3017952843.index
+3877847584.index
+3834196311.index
+1130909074.index
+924461231.index
+2832861345.index

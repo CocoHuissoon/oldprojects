@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+
+
+
+public class Stack<E> {
+
+    private ArrayList<E> arrayList = new ArrayList<>();
+
+    public Stack() {
+
+    }
+
+    public E peak() {
+        return this.arrayList.get(arrayList.size() - 1);
+    }
+
+    public E pop() {
+        return this.arrayList.remove(arrayList.size() - 1);
+    }
+
+    public void print() {
+        System.out.println(this.arrayList);
+    }
+
+    public Stack<E> push(E object) {
+        this.arrayList.add(object);
+        return this;
+    }
+}

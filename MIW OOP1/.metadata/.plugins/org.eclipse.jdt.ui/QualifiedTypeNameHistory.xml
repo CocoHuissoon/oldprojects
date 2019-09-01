@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Shapes.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Shapes.Rectangle"/>
+    <fullyQualifiedTypeName name="model.Wedstrijd"/>
+    <fullyQualifiedTypeName name="model.Team"/>
+    <fullyQualifiedTypeName name="nl.hva.oop1.bedrijf.models.Bedrijf"/>
+    <fullyQualifiedTypeName name="nl.hva.oop1.bedrijf.models.Werknemer"/>
+    <fullyQualifiedTypeName name="nl.hva.oop1.bedrijf.models.Vrijwilliger"/>
+    <fullyQualifiedTypeName name="nl.hva.oop1.bedrijf.models.Manager"/>
+    <fullyQualifiedTypeName name="nl.hva.oop1.bedrijf.models.Persoon"/>
+    <fullyQualifiedTypeName name="Droidfactorymodels.Droid"/>
+    <fullyQualifiedTypeName name="Droidfactorymodels.TextRepeater"/>
+    <fullyQualifiedTypeName name="calorieenteller.model.Brood"/>
+    <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="calorieenteller.model.Vleeswaar"/>
+    <fullyQualifiedTypeName name="calorieenteller.model.Etenswaar"/>
+    <fullyQualifiedTypeName name="model.Vuurwerk"/>
+    <fullyQualifiedTypeName name="model.Instructie"/>
+    <fullyQualifiedTypeName name="model.Knaller"/>
+    <fullyQualifiedTypeName name="model.Vuurpijl"/>
+    <fullyQualifiedTypeName name="model.Product"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="model.Customer"/>
+    <fullyQualifiedTypeName name="javadb.CustomerDAO"/>
+    <fullyQualifiedTypeName name="models.Meting"/>
+    <fullyQualifiedTypeName name="models.Singlemeting"/>
+    <fullyQualifiedTypeName name="models.MultiMeting"/>
+    <fullyQualifiedTypeName name="models.MeetStation"/>
+    <fullyQualifiedTypeName name="model.Meting"/>
+    <fullyQualifiedTypeName name="model.SingleMeting"/>
+    <fullyQualifiedTypeName name="model.MultiMeting"/>
+    <fullyQualifiedTypeName name="model.MeetStation"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Singleton.Singleton"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Observer"/>
+    <fullyQualifiedTypeName name="Geldautomaat"/>
+    <fullyQualifiedTypeName name="GetGeldAutomaatData"/>
+    <fullyQualifiedTypeName name="GeldAutomaatStatus"/>
+    <fullyQualifiedTypeName name="models.MotionController"/>
+</qualifiedTypeNameHistroy>

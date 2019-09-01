@@ -1,0 +1,12 @@
+JUnit testing:
+
+1. Make a JUnit test case and add all the methods you want to test
+
+2. Create test cases of which you know the answer (the *expected* value)
+
+3. Then assert whether the methods outcome (*actual*) equals the expected value
+	- assertEquals(expected, actual, 0.0001**);
+	- assertTrue(cal.isNegative(-10));
+	- assertArrayEquals(expected, actual, 0.0001**);
+	
+	** = the allowed margin of error

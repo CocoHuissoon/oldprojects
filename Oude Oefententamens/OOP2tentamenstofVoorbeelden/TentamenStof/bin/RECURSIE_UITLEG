@@ -1,0 +1,36 @@
+Recursion:
+
+Head recursion = first comes the recursive call (with e.g. n-1), than the calculation once the call is back
+			- STACK OVERFLOW possible**
+			- Base case --> if (n == 0) { return 1; }
+
+--------------------------------------
+	public int factorial (int n) {
+		if (n == 0) {
+			return 1;
+		} else {
+			return n * factorial(n-1);
+		}
+	}
+--------------------------------------
+
+
+Tail recursion = the processing occurs before the recursive call by using an extra variable (accum)
+			- The answer is calculated first and then passed on to the next recursion call
+			- Therefore only 1 stack (who gets to be overwritten, because it has finished it's calculation
+			  so Java doesn't have to remember the stack)
+			- Helper function** --> factorial(int n)
+
+--------------------------------------
+	private int factorial(int n, int accum) {
+   		if (n == 0) {
+     		return accum;
+   		} else {
+      		return factorial(n - 1, accum * n);
+      	}
+   	}
+
+	public int factorial(int n) {
+   		return factorial(n, 1);
+	}
+--------------------------------------

@@ -1,0 +1,18 @@
+package nl.hva.miw.oop2.cohort12.tentamen;
+
+public class Launcher {
+
+	
+		public static void main(String[] args) throws OngeldigeMatrixPositieException, ClassNotFoundException {
+			Matrix q = new Matrix(5);
+			Matrix d = new Matrix(5);
+			d.addElement(4, 4, 4);
+			q.addElement(4, 4, 4);
+			q.loadFromFile("src/Matrix.dat");
+			
+			System.out.println(q.toString());
+			
+		}
+	}
+
+
